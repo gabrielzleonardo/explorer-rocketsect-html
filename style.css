@@ -2,7 +2,7 @@ body {
   background: #2C2B3D;
 }
 
-.page{
+.page {
   width: 1092px;
   margin: 0 auto;
   
@@ -24,7 +24,15 @@ ul {
   gap: 64px;
 }
 
-main{
+a {
+  transition: 0.25s;
+}
+
+a:hover {
+  color: #00BFA6;
+}
+
+main {
   display: flex;
   gap: 82px;
   align-items: center;
@@ -61,7 +69,7 @@ a {
   text-decoration: none;
 }
 
-#line{
+#line {
   margin: 0 auto;
   border-top: 2px solid #00BFA6;
   width: 568px;
@@ -74,7 +82,7 @@ footer {
   font-size: 14px;
 }
 
-#locker{
+#locker {
   position: fixed;
   bottom: 0;
   left: 41px;
